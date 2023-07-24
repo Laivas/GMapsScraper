@@ -233,7 +233,8 @@ public class SeleniumGmapsScrapper extends SeleniumScrapper {
 
 			elementsToExtractData = driver.findElements(By.xpath("//*[@class=\"Io6YTe fontBodyMedium kR99db \"]"));
 
-			title = driver.findElements(By.xpath("//*[@class=\"DUwDvf fontHeadlineLarge\"]"));
+//			title = driver.findElements(By.xpath("//*[@class=\"DUwDvf fontHeadlineLarge\"]"));
+			title = driver.findElements(By.xpath("//*[@class=\"DUwDvf lfPIob\"]"));
 
 			websiteElement = driver.findElements(By.xpath("//*[@data-item-id=\"authority\"]"));
 

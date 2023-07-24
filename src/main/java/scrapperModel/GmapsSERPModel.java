@@ -28,7 +28,7 @@ public class GmapsSERPModel {
 	
 	private String address;
 	
-	private String description;
+//	private String description;
 	
 	private String phoneNumber;
 	
